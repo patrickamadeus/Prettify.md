@@ -25,4 +25,6 @@ class PromptFactory():
     def get_prompt_dict(self) -> dict:
         return self.prompts
     
+    def get_prompts(self) -> [PromptTemplate]:
+        return list(self.prompts.values())
     

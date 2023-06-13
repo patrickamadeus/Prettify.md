@@ -1,0 +1,16 @@
+.container {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    color: white;
+    width: 50%;
+  }
+
+.outer{
+  background-color: white;
+  width: 4cm;
+}
+  

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Mono:wght@400;500&display=swap');
+
+.container {
+    text-align: center;
+  }
+  
+  .title {
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 25%;
+  }
+  
+  .subtitle {
+    color: #86c232;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: normal;
+    /* line-height: 0; */
+  }
