@@ -2,3 +2,4 @@
 venv.bat
 playground.ipynb
 .env
+__pycache__/
