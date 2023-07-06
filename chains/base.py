@@ -74,7 +74,13 @@ class PrettifyChain():
                 d[k] = v.template[:200] + "...."
         pprint_dict(d)
 
-    def run(self, input_path: str, output_path: str, verbose_run: bool = False, verbose_cost: bool = False) -> str:
+    def run(self, input_path: str, output_path: str, verbose_run: bool = False, verbose_cost: bool = False, text: str = None) -> str:
+        # If text is ready
+        if text is not None:
+            self._construct_sequence(verbose=verbose_run)
+            result = self.sequence.run(text)
+            return result
+        
         # Open input file
         markdown_text = open_markdown(input_path)
 
