@@ -9,8 +9,8 @@ if __name__ == '__main__':
 
     # prettify.print_prompts(complete=True)
     _ = prettify.run(
-        input_path = "./data/input/4.md",
-        output_path = "./data/output/res_5.md",
+        input_path = "./data/input/2.md",
+        output_path = "./data/output/res_newest.md",
         verbose_cost=True
     )
 

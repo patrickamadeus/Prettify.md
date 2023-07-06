@@ -1,1 +1,6 @@
-
+langchain==0.0.225
+openai==0.27.8
+python-dotenv==1.0.0
+streamlit==1.23.1
+streamlit-server-state==0.16.0
+tiktoken==0.4.0
