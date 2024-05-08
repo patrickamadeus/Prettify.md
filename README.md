@@ -11,10 +11,9 @@ Inspired by [Prettier](https://prettier.io/), Prettify.md streamlines your docum
 * **Streamlined Workflow:** Save time and effort by letting Prettify.md handle the formatting, allowing you to focus on content creation.
 
 **Tech Stack:**
-
-* **Streamlit:** This powerful framework provides a user-friendly interface for interacting with Prettify.md.
-* **Langchain** (potentially):  While the provided information doesn't explicitly mention functionality, Langchain offers potential for advanced text processing capabilities within Prettify.md (further investigation recommended).
-* **Python:** Python serves as the foundation for building Prettify.md's core functionality.
+- **Streamlit**
+- **Langchain**
+- **Python**
 
 **Looking Ahead:**
 
